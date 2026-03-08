@@ -1,0 +1,31 @@
+{
+    "scan_info": {
+        "network": "127.0.0.1/32",
+        "timestamp": "2026-03-08T07:19:28.090905",
+        "duration_seconds": 0.119811,
+        "port_scan_enabled": true,
+        "os_detection_enabled": false,
+        "port_range": "1-1024"
+    },
+    "hosts": [
+        {
+            "ip": "127.0.0.1",
+            "hostname": "localhost",
+            "state": "up",
+            "mac": "",
+            "vendor": "",
+            "ports": [
+                {
+                    "port": 22,
+                    "state": "open",
+                    "service": "ssh"
+                },
+                {
+                    "port": 53,
+                    "state": "open",
+                    "service": "domain"
+                }
+            ]
+        }
+    ]
+}
